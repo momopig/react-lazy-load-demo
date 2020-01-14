@@ -3,7 +3,7 @@
 
 [click me](https://momopig.github.io/react-lazy-load-demo/)
 # Vedio
-[![lazy load vedio](./readme/cover.png)](./readme/lazy-load-vedio.gif)
+![lazy load vedio](./readme/lazy-load-vedio.gif)
 
 ## References
 [Lazy-loading components in React 16.6](https://blog.logrocket.com/lazy-loading-components-in-react-16-6-6cea535c0b52/)
