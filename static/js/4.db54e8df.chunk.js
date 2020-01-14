@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-lazy-load-demo"]=this["webpackJsonpreact-lazy-load-demo"]||[]).push([[4],{44:function(e,a,n){"use strict";n.r(a);var t=n(0),o=n.n(t),c=n(35),r=n.n(c);n(41),n(42);a.default=function(){return o.a.createElement(r.a,{mode:"java",theme:"github",onChange:function(){},name:"code"})}}}]);
+//# sourceMappingURL=4.db54e8df.chunk.js.map
