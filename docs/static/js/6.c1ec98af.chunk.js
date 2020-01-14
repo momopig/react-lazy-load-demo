@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-lazy-load-demo"]=this["webpackJsonpreact-lazy-load-demo"]||[]).push([[6],{40:function(e,t,a){"use strict";a.r(t);var o=a(0),n=a.n(o),c=a(10);t.default=function(e){return n.a.createElement("div",{className:"Home-component"},n.a.createElement("p",null,"This is home page!"),n.a.createElement(c.b,{to:"/editor"},"link to code editor page!"))}}}]);
+//# sourceMappingURL=6.c1ec98af.chunk.js.map
