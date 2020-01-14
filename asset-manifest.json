@@ -1,30 +1,30 @@
 {
   "files": {
     "main.css": "/react-lazy-load-demo/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/react-lazy-load-demo/static/js/main.5134f5dd.chunk.js",
-    "main.js.map": "/react-lazy-load-demo/static/js/main.5134f5dd.chunk.js.map",
-    "runtime-main.js": "/react-lazy-load-demo/static/js/runtime-main.c59720d0.js",
-    "runtime-main.js.map": "/react-lazy-load-demo/static/js/runtime-main.c59720d0.js.map",
-    "static/js/2.31ad208d.chunk.js": "/react-lazy-load-demo/static/js/2.31ad208d.chunk.js",
-    "static/js/2.31ad208d.chunk.js.map": "/react-lazy-load-demo/static/js/2.31ad208d.chunk.js.map",
-    "static/js/3.11f5286b.chunk.js": "/react-lazy-load-demo/static/js/3.11f5286b.chunk.js",
-    "static/js/3.11f5286b.chunk.js.map": "/react-lazy-load-demo/static/js/3.11f5286b.chunk.js.map",
-    "static/js/4.ae65c552.chunk.js": "/react-lazy-load-demo/static/js/4.ae65c552.chunk.js",
-    "static/js/4.ae65c552.chunk.js.map": "/react-lazy-load-demo/static/js/4.ae65c552.chunk.js.map",
-    "static/js/5.4e280277.chunk.js": "/react-lazy-load-demo/static/js/5.4e280277.chunk.js",
-    "static/js/5.4e280277.chunk.js.map": "/react-lazy-load-demo/static/js/5.4e280277.chunk.js.map",
-    "static/js/6.c1ec98af.chunk.js": "/react-lazy-load-demo/static/js/6.c1ec98af.chunk.js",
-    "static/js/6.c1ec98af.chunk.js.map": "/react-lazy-load-demo/static/js/6.c1ec98af.chunk.js.map",
+    "main.js": "/react-lazy-load-demo/static/js/main.6bae02ad.chunk.js",
+    "main.js.map": "/react-lazy-load-demo/static/js/main.6bae02ad.chunk.js.map",
+    "runtime-main.js": "/react-lazy-load-demo/static/js/runtime-main.645baea9.js",
+    "runtime-main.js.map": "/react-lazy-load-demo/static/js/runtime-main.645baea9.js.map",
+    "static/js/2.63c16601.chunk.js": "/react-lazy-load-demo/static/js/2.63c16601.chunk.js",
+    "static/js/2.63c16601.chunk.js.map": "/react-lazy-load-demo/static/js/2.63c16601.chunk.js.map",
+    "static/js/3.3abbb41e.chunk.js": "/react-lazy-load-demo/static/js/3.3abbb41e.chunk.js",
+    "static/js/3.3abbb41e.chunk.js.map": "/react-lazy-load-demo/static/js/3.3abbb41e.chunk.js.map",
+    "static/js/4.db54e8df.chunk.js": "/react-lazy-load-demo/static/js/4.db54e8df.chunk.js",
+    "static/js/4.db54e8df.chunk.js.map": "/react-lazy-load-demo/static/js/4.db54e8df.chunk.js.map",
+    "static/js/5.2b47c335.chunk.js": "/react-lazy-load-demo/static/js/5.2b47c335.chunk.js",
+    "static/js/5.2b47c335.chunk.js.map": "/react-lazy-load-demo/static/js/5.2b47c335.chunk.js.map",
+    "static/js/6.fc792c6b.chunk.js": "/react-lazy-load-demo/static/js/6.fc792c6b.chunk.js",
+    "static/js/6.fc792c6b.chunk.js.map": "/react-lazy-load-demo/static/js/6.fc792c6b.chunk.js.map",
     "index.html": "/react-lazy-load-demo/index.html",
-    "precache-manifest.c0c2028e4c9f262e0a5ab9812223bfc4.js": "/react-lazy-load-demo/precache-manifest.c0c2028e4c9f262e0a5ab9812223bfc4.js",
+    "precache-manifest.4eaf03a254618bf328ea5c81d27e7b11.js": "/react-lazy-load-demo/precache-manifest.4eaf03a254618bf328ea5c81d27e7b11.js",
     "service-worker.js": "/react-lazy-load-demo/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/react-lazy-load-demo/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.31ad208d.chunk.js.LICENSE": "/react-lazy-load-demo/static/js/2.31ad208d.chunk.js.LICENSE"
+    "static/js/2.63c16601.chunk.js.LICENSE": "/react-lazy-load-demo/static/js/2.63c16601.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.c59720d0.js",
-    "static/js/2.31ad208d.chunk.js",
+    "static/js/runtime-main.645baea9.js",
+    "static/js/2.63c16601.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.5134f5dd.chunk.js"
+    "static/js/main.6bae02ad.chunk.js"
   ]
 }
