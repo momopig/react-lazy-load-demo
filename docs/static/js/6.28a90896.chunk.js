@@ -1,2 +1,0 @@
-(this["webpackJsonplazy-cra-app"]=this["webpackJsonplazy-cra-app"]||[]).push([[6],{40:function(e,a,t){"use strict";t.r(a);var n=t(0),c=t.n(n),o=t(10);a.default=function(e){return c.a.createElement("div",{className:"Home-component"},c.a.createElement("p",null,"This is home page!"),c.a.createElement(o.b,{to:"/editor"},"link to code editor page!"))}}}]);
-//# sourceMappingURL=6.28a90896.chunk.js.map
