@@ -2,7 +2,7 @@
 ## Online Demo
 
 [click me](https://momopig.github.io/react-lazy-load-demo/)
-## Vedio
+## Video
 ![lazy load vedio](./readme/lazy-load-vedio.gif)
 
 ## References
