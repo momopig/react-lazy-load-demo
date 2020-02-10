@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+    }
+    canvas {
+      width: 100%;
+      height: 500px;
+    }
+  </style>
+<body >
+  <canvas id='my_canvas'></canvas>
+</body>
+<script>
+  var canvas = document.getElementById('my_canvas') //首先通过ID获取到Canvas
+
+  var context = canvas.getContext('2d') //然后获取context对象
+
+  context.fillStyle = "green" //设置填充样式为绿色
+
+  context.fillRect(100,100,200,200) //绘制矩形
+
+  context.save() //保存Canvas状态
+
+  context.fillStyle = "blue" //设置填充样式为蓝色
+
+  context.fillRect(120,120,160,160) //绘制矩形
+
+  context.save() //保存Canvas状态
+
+  context.fillStyle = "red" //设置填充样式为红色
+
+  context.fillRect(140,140,120,120) //绘制矩形
+
+  context.save() //保存Canvas状态
+
+  context.fillStyle = "yellow" //设置填充样式为黄色
+
+  context.fillRect(160,160,80,80) //绘制矩形
+
+  context.restore() //回到保存的上一个状态，即红色
+
+  context.restore() //在往回返，回到保存的上上个状态，即蓝色
+
+  context.fillRect(180,180,40,40) //因此此处填充的矩形是蓝色的
+
+
+</script>
+
+</html>

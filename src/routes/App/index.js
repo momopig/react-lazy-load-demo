@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import React, { Suspense, lazy } from 'react'
 
-const Home = lazy(() => import('./children/Home'))
+const Home = lazy(() => import('./children/Home/index'))
 const Editor = lazy(() => import('./children/Editor'))
 
 const App = () => (
@@ -15,3 +15,5 @@ const App = () => (
   </BrowserRouter>
 )
 export default App
+
+
