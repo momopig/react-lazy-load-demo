@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://d3js.org/d3.v3.js" charset="utf-8"></script>
+</head>
+<body>
+
+
+<script>
+
+var size = 3;
+var height = 500;
+var width = 960;
+var charge = -0.3;
+
+var data = d3.range(size).map(function(){
+	return {r: Math.floor(Math.random() * 8 + 2)};
+});
+var start = new Date();
+var time = 0;
+var ticks = 0;
+var force = d3.layout.force()
+	.size([width, height])
+	.charge(function(d){
+		return d.r * d.r * charge;
+	});
+
+
+var nodes;
+var circles;
+var newCircles;
+var dyingCircles;
+d3.range(5).map((item, i) => {
+  debugger
+})
+var canvas = d3.select('body')
+	.append('canvas')
+	.attr({
+		height: height,
+		width: width
+	});
+
+d3.ns.prefix.custom = "http://github.com/mbostock/d3/examples/dom";
+var container = d3.select(document.createElementNS('custom', 'g'));
+
+function drawWithData(data){
+	force.nodes(data)
+		.start();
+	nodes = force.nodes();
+	circles = container.selectAll('circle')
+		.data(nodes);
+	newCircles = circles.enter()
+		.append('custom:circle')
+    .attr('r', 0);
+    debugger
+	circles.transition()
+		.duration(1000)
+		.attr('r', function(d){
+			return d.r;
+		});
+	dyingCircles = circles.exit();
+	dyingCircles.transition()
+		.attr('r', 0)
+		.remove();
+}
+
+drawWithData(data);
+
+var context = canvas.node().getContext("2d");
+
+force.on('tick', function(){
+	var renderStart = new Date();
+	context.clearRect(0, 0, width, height);
+	context.fillStyle = "steelblue";
+    context.beginPath();
+    circles.each(function(d) {
+      context.moveTo(d.x, d.y);
+      context.arc(d.x, d.y, d3.select(this).attr('r'), 0, 2 * Math.PI);
+    });
+    dyingCircles.each(function(d) {
+
+		context.moveTo(d.x, d.y);
+		context.arc(d.x, d.y, d3.select(this).attr('r'), 0, 2 * Math.PI);
+    });
+    context.fill();
+
+	time += (new Date() - renderStart);
+	ticks++;
+});
+
+force.on('end', function(){
+	var totalTime = new Date() - start;
+	console.log('Total Time:', totalTime);
+	console.log('Render Time:', time);
+	console.log('Ticks:', ticks);
+	console.log('Average Time:', totalTime / ticks);
+});
+
+</script>
+
+
+</html>

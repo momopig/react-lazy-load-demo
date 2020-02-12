@@ -1,0 +1,11 @@
+    context.fillStyle = "#fff";
+    context.rect(0,0, graphWidth, height);
+    context.fill();
+
+    var elements = dataContainer.selectAll("custom.circle");
+    elements.each(function(d) {
+      context.beginPath();
+      context.arc(d.x, d.y, RADIUS, 0, 2 * Math.PI, true);
+      context.fillStyle = d.col ? "red":"green"
+      context.fill();
+    });
